@@ -1,4 +1,5 @@
 # Experiment-08- Encoders-and-decoders 
+
 ### AIM: To implement 8 to 3 Encoder and  3to8 Decoder using verilog and validate its outputs
 ### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
 ### SOFTWARE REQUIRED:   Quartus prime
@@ -55,42 +56,99 @@ D7 = X Y Z
 ## Figure -04 8 to 3 Decoder implementation 
 
 ### Procedure
-/* write all the steps invloved */
+
+Step 1:
+
+Create module encoder and decoder.
+
+Step 2: 
+
+Get inputs and outputs for encoders and decoders.
+
+Step 3: 
+
+Perform "or" operation for encoder and "and" logic for decoders. 
+
+Step 4:
+
+Perform RTL LOGIC and get waveform. Step-5: End the module.
 
 
-
-### PROGRAM 
+### PROGRAM
+```
 /*
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: JAYABHARATHI.S
+RegisterNumber:  212222100013
 */
+```
+
+DECODER:
+
+module decod(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
+input a,b,c;
+output d0,d1,d2,d3,d4,d5,d6,d7;
+assign d0 = (~a&~b&~c);
+assign d1 = (~a&~b&c);
+assign d2 = (~a&b&~c);
+assign d3 = (~a&b&c);
+assign d4 = (a&~b&~c);
+assign d5 = (a&~b&c);
+assign d6 = (a&b&~c);
+assign d7 = (a&b&c);
+endmodule
+
+
+ENCODER:
+
+module encod(a,b,c,d0,d1,d2,d3,d4,d5,d6,d7);
+output a,b,c;
+input d0,d1,d2,d3,d4,d5,d6,d7;
+or(a,d4,d5,d6,d7);
+or(b,d2,d3,d6,d7);
+or(c,d1,d3,d5,d7);
+endmodule
 
 
 
+### RTL LOGIC 
 
+ ## DECODER
+ 
+ ![decod RTL](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/4f0fae09-40a2-406d-b03b-c42aa279ad56)
 
-
-### RTL LOGIC  
-
-
-
-
-
+ 
+ ## ENCODER
+ ![encod rtl](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/04db3103-f46a-4d01-a5b2-bed94cdd8956)
 
 
 
 ### TIMING DIGRAMS  
 
+## DECODER
+
+![decod tl](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/0aff40be-35fb-415d-b9bf-83d127670a08)
+
+
+## ENCODER
+![encode wave](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/fbada6e8-4d99-4fd5-8637-da81cd85721f)
 
 
 
 
 ### TRUTH TABLE 
 
+## DECODER
+
+![decode tt](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/6137094c-5f68-4ed9-992d-df4054baf1b1)
 
 
 
+## ENCODER
+
+![encode tt](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/e18f07ae-63f2-4418-a625-c7c3ccccfdd1)
 
 
 ### RESULTS 
+
+Thus the program to desing encoder and decoder is done.
