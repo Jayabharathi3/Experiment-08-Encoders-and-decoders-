@@ -81,7 +81,7 @@ Program for Endocers and Decoders  and verify its truth table in quartus using V
 Developed by: JAYABHARATHI.S
 RegisterNumber:  212222100013
 */
-```
+
 
 DECODER:
 
@@ -108,6 +108,8 @@ or(a,d4,d5,d6,d7);
 or(b,d2,d3,d6,d7);
 or(c,d1,d3,d5,d7);
 endmodule
+
+```
 
 
 
