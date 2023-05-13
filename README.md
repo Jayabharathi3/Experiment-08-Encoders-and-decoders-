@@ -29,6 +29,7 @@ Hence, the encoder can be realised with OR gates as follows:
 ## Figure -02 3 to 8 Encoder implenentation 
 
  ### Decoders 
+ 
 A decoder does the opposite job of an encoder. It is a combinational circuit that converts n lines of input into 2n lines of output.
 
 Let’s take an example of 3-to-8 line decoder.
@@ -55,6 +56,8 @@ D7 = X Y Z
 ![image](https://user-images.githubusercontent.com/36288975/171543866-5a6eace6-8683-49d7-9c4f-a7cb30ec3035.png)
 ## Figure -04 8 to 3 Decoder implementation 
 
+
+
 ### Procedure
 
 Step 1:
@@ -72,6 +75,8 @@ Perform "or" operation for encoder and "and" logic for decoders.
 Step 4:
 
 Perform RTL LOGIC and get waveform. Step-5: End the module.
+
+
 
 
 ### PROGRAM
@@ -113,6 +118,8 @@ endmodule
 
 
 
+
+
 ### RTL LOGIC 
 
  ## DECODER
@@ -125,6 +132,7 @@ endmodule
 
 
 
+
 ### TIMING DIGRAMS  
 
 ## DECODER
@@ -134,6 +142,7 @@ endmodule
 
 ## ENCODER
 ![encode wave](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/fbada6e8-4d99-4fd5-8637-da81cd85721f)
+
 
 
 
