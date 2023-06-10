@@ -127,13 +127,12 @@ endmodule
 ### RTL LOGIC 
 
  ## DECODER
- 
- ![decod RTL](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/4f0fae09-40a2-406d-b03b-c42aa279ad56)
+![de10](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/02b761ff-4a69-457d-81a6-a8e24356b572)
+
 
  
  ## ENCODER
- ![encod rtl](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/04db3103-f46a-4d01-a5b2-bed94cdd8956)
-
+![de9](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/ae7f51bf-3055-4ae9-b4e9-29dcda158495)
 
 
 
@@ -141,27 +140,25 @@ endmodule
 
 ## DECODER
 
-![decod tl](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/0aff40be-35fb-415d-b9bf-83d127670a08)
+![de12](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/6fbf5e8e-c33d-453f-9ca3-c942649e6bd1)
+
 
 
 ## ENCODER
-![encode wave](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/fbada6e8-4d99-4fd5-8637-da81cd85721f)
-
-
-
+![d11](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/4779600e-1730-401b-9622-45eb18694012)
 
 
 ### TRUTH TABLE 
 
 ## DECODER
 
-![decode tt](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/6137094c-5f68-4ed9-992d-df4054baf1b1)
-
+![de14](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/79d16497-13d9-4fc9-80aa-6683f3ff813a)
 
 
 ## ENCODER
 
-![encode tt](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/e18f07ae-63f2-4418-a625-c7c3ccccfdd1)
+![de13](https://github.com/Jayabharathi3/Experiment-08-Encoders-and-decoders-/assets/120367796/b8445e08-f1d2-4199-a637-f4e52c7cee5e)
+
 
 
 ### RESULTS 
